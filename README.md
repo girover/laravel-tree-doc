@@ -511,7 +511,27 @@ To delete all children of a node:
     return $node->deleteChildren(); // number of deleted nodes
 ```
 
-### Checking nodes
+### Checking nodes 
+
+### <!-- Determining is Rot -->
+To determine if the node is root in the tree
+```php
+    return $node->isRoot(); // returns true or false
+```
+
+
+
+
+### <!-- Determining is Ancestor of -->
+To determine if the node is ancestor of another node:
+```php
+    use Girover\Tree\Models\Node;
+
+    $node = Node::find(1);
+    $another_node = Node::find(2);
+
+    return $node->isAncestorOf($another_node); // returns true OR false
+```
 
 ### <!-- Determining is father of -->
 To determine if the node is father of another node:
@@ -524,11 +544,6 @@ To determine if the node is father of another node:
     return $node->isFatherOf($another_node); // returns true OR false
 ```
 
-### <!-- Determining is Rot -->
-To determine if the node is root in the tree
-```php
-    return $node->isRoot(); // returns true or false
-```
 
 ### <!-- Determining ha children -->
 Determine if the node has children
