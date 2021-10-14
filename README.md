@@ -1,4 +1,3 @@
-![tree-template-2](https://user-images.githubusercontent.com/53403538/128646183-8d716a2c-da22-473a-a06d-1563974afb76.png)
 ![tree-template-3](https://user-images.githubusercontent.com/53403538/137398258-c43cba4a-8257-442a-9e0d-4c49f5e529d7.png)
 # Building family tree
 
