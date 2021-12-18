@@ -1,5 +1,5 @@
 ![tree-template-3](https://user-images.githubusercontent.com/53403538/137398258-c43cba4a-8257-442a-9e0d-4c49f5e529d7.png)
-# Building family tree
+# Building Family Tree
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/girover/tree.svg?style=flat-square)](https://packagist.org/packages/girover/tree)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/girover/tree/run-tests?label=tests)](https://github.com/girover/tree/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -46,7 +46,7 @@ Every node in a tree is allowed to have 676 direct children.
 You can add the package via **composer**:
 
 ```bash
-composer require girover/tree
+composer require girover/laravel-tree
 ```
 
 Before installing the package you should configure your database.  
